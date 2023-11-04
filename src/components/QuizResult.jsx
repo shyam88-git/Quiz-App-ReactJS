@@ -1,8 +1,11 @@
 import React from 'react'
 
-const QuizResult = () => {
+const QuizResult = (props) => {
   return (
-    <div>QuizResult</div>
+    <React.Fragment>
+       Your Score :{props.score} <br/>
+      Your Total Score:{props.totalScore}
+    </React.Fragment>
   )
 }
 

@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+.option-card {
+  background-color: #fff; /* Default background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Default box-shadow */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition on hover */
+
+  /* Add any other styles you want for unclicked options */
+}
+
+.option-card:hover {
+  background-color: #f86363; /* Background color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box-shadow on hover */
+
+  /* Add any other styles you want for hovered options */
+}
+
+.clicked-option {
+  background-color: #4CAF50; /* Background color for the clicked option */
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.8); /* Box-shadow for the clicked option */
+
+  /* Add any other styles you want for clicked options */
+}
